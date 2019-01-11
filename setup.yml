@@ -8,5 +8,5 @@
     - name: Remove unneeded packages
       become: yes
       dnf: 
-          name: ['plasma-discover','amarok','kdepim','kdepim-runtime','calligra-core','kamoso','dragonplayer','juk','packagekit','krusader','konqueror','falkon','konversation','ktorrent','kget']
+          name: ['plasma-discover','amarok','kdepim','kdepim-runtime','calligra-core','kamoso','dragonplayer','juk','packagekit','krusader','konqueror','falkon','konversation','ktorrent','kget','kmail']
           state: absent
