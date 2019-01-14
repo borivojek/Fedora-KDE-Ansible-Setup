@@ -3,7 +3,7 @@
     - name: Install Packages
       become: yes
       dnf:
-          name: ['keepassxc','grub-customizer','vlc','wine','telegram-desktop','vim','libreoffice','neofetch','breeze-gtk','breeze-dark-gtk','winetricks','plasma-brower-integration','kvantum','cmake','extra-cmake-modules','fftw3','fftw-devel','steam','git','rust','rust-doc','cargo','qbittorent','mesa-libGLU.i686','redshift','lm_sensors','htop','audacity','ffmpeg','krita','rclone','@virtualization','kate']
+          name: ['keepassxc','grub-customizer','vlc','wine','telegram-desktop','vim','libreoffice','libreoffice-kde4','neofetch','breeze-gtk','breeze-dark-gtk','winetricks','plasma-brower-integration','kvantum','cmake','extra-cmake-modules','fftw3','fftw-devel','steam','git','rust','rust-doc','cargo','qbittorent','mesa-libGLU.i686','redshift','lm_sensors','htop','audacity','ffmpeg','krita','rclone','@virtualization','kate']
           state: present
     - name: Remove unneeded packages
       become: yes
