@@ -3,7 +3,7 @@
     - name: Install Packages
       become: yes
       dnf:
-          name: ['xorg-x11-drv-amdgpu','keepassxc','grub-customizer','vlc','wine','telegram-desktop','vim','libreoffice','libreoffice-kde4','neofetch','breeze-gtk','breeze-dark-gtk','winetricks','plasma-brower-integration','kvantum','cmake','extra-cmake-modules','fftw3','fftw-devel','steam','git','rust','rust-doc','cargo','qbittorent','mesa-libGLU.i686','redshift','lm_sensors','htop','audacity','ffmpeg','krita','rclone','@virtualization','kate','qmmp','qmmp-plugin-pack-freeworld']
+          name: ['xorg-x11-drv-amdgpu','keepassxc','grub-customizer','vlc','wine','telegram-desktop','vim','libreoffice','neofetch','winetricks','kvantum','cmake','extra-cmake-modules','fftw3','fftw-devel','steam','git','qbittorrent','mesa-libGLU.i686','redshift','lm_sensors','htop','audacity','ffmpeg','krita','rclone','@virtualization','kate','qmmp','qmmp-plugin-pack-freeworld','lutris','rcm','xdg-desktop-portal-kde']
           state: present
     - name: Remove unneeded packages
       become: yes
